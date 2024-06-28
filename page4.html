@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <section class="container-fluid apppage flex p-3">
+        <img  src="Assets/ListenTogether-removebg-preview 1.png" alt="">
+    </section>
+    <section class="container apppage1">
+        <div class="row">
+            <div class="col-6">
+                <a href="device1.html"><div class="card">
+                    <img class="card-img-top" src="Assets/BUDS.png" alt="Title" />
+                    <div class="card-body">
+                        <h5 class="card-title text-white">Apple Air buds</h5>
+                    </div>
+                </div></a>
+            </div>
+            <div class="col-6">
+                <a href="device2.html"><div class="card">
+                    <img class="card-img-top" src="Assets/headset.png" alt="Title"/>
+                    <div class="card-body">
+                        <h5 class="card-title text-white">Jbl Headset</h5>
+                    </div></a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section class="p-5 text-center app">
+        <!-- Modal trigger button -->
+        <button
+            type="button"
+            class="btn btn-info btn-lg"
+            data-bs-toggle="modal"
+            data-bs-target="#modalId"
+            
+        >
+        Reset
+        </button>
+        
+        <!-- Modal Body -->
+        <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+        <div
+            class="modal fade"
+            id="modalId"
+            tabindex="-1"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            
+            role="dialog"
+            aria-labelledby="modalTitleId1"
+            aria-hidden="true"
+        >
+            <div
+                class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm"
+                role="document"
+            >
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalTitleId1">
+                            Reset
+                        </h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">Do you want to reset</div>
+                    <div class="modal-footer">
+                        <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                        >
+                            Cancel
+                        </button>
+                        <a href="page.html"><button type="button" class="btn btn-info">OK</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Optional: Place to the bottom of scripts -->
+        <script>
+            const myModal = new bootstrap.Modal(
+                document.getElementById("modalId1"),
+                options,
+            );
+        </script>
+    </section>
+    <section class="p-2 text-center app">
+        <!-- Modal trigger button -->
+        <button
+            type="button"
+            class="btn btn-info btn-lg"
+            data-bs-toggle="modal"
+            data-bs-target="#modalId2"
+        >
+            Add
+        </button>
+        
+        <!-- Modal Body -->
+        <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+        <div
+            class="modal fade"
+            id="modalId1"
+            tabindex="-1"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            
+            role="dialog"
+            aria-labelledby="modalTitleId"
+            aria-hidden="true"
+        >
+            <div
+                class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm"
+                role="document"
+            >
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalTitleId">
+                           Add
+                        </h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">Do you want add new device</div>
+                    <div class="modal-footer">
+                        <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                        >
+                            Close
+                        </button>
+                        <a href="page.html"><button type="button" class="btn btn-primary">Ok</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Optional: Place to the bottom of scripts -->
+        <script>
+            const myModal = new bootstrap.Modal(
+                document.getElementById("modalId"),
+                options,
+            );
+        </script>
+        
+     <br> <br>
+    <section class="p-4 text-center app">
+        <!-- Modal trigger button -->
+        <button
+            type="button"
+            class="btn btn-info btn-lg"
+            data-bs-toggle="modal"
+            data-bs-target="#modalId2"
+        >
+            Remove
+        </button>
+        
+        <!-- Modal Body -->
+        <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+        <div
+            class="modal fade"
+            id="modalId2"
+            tabindex="-1"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            
+            role="dialog"
+            aria-labelledby="modalTitleId"
+            aria-hidden="true"
+        >
+            <div
+                class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-sm"
+                role="document"
+            >
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalTitleId">
+                           remove
+                        </h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">Do you want to remove any device</div>
+                    <div class="modal-footer">
+                        <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                        >
+                            Close
+                        </button>
+                        <a href="page.html"><button type="button" class="btn btn-primary">Ok</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Optional: Place to the bottom of scripts -->
+        <script>
+            const myModal = new bootstrap.Modal(
+                document.getElementById("modalId"),
+                options,
+            );
+        </script>
+        <br> <br>
+    <section class="size">
+        <p>the app only visible on mobile screen size so decrease the size please</p>
+    </section>
+    <script src="app.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none!important;
+}
+.app{
+    padding-top: 20vh;
+}
+.app img{
+    width: 200px;
+}
+.size p{
+    text-align: center!important;
+}
+.page1 img{
+    position:fixed;
+    width: 100px;
+}
+.img2{
+    position:relative;
+    width: 80px;
+    top: 160px;
+}
+.circle{
+    width: 250px;
+    height: 250px;
+    background-color:skyblue;
+    border-radius: 50%;
+}
+.circle1{
+    width: 200px;
+    height: 200px;
+    background-color:rgb(28, 169, 225) ;
+    border-radius: 50%;
+}
+.circle2{
+    width: 150px;
+    height: 150px;
+    background-color:rgb(9, 67, 90);
+    border-radius: 50%;
+}
+.app_start button{
+    margin-top: 10vh;
+    width: 120px;
+    color: aliceblue;
+}
+.app button{
+    width: 120px;
+    color: aliceblue;
+}
+.flex{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.apppage1 .card{
+    background-color: skyblue;
+    border: none;
+}
+.apppage1 img{
+    width: 100px;
+}
+.Equalizer{
+    color: rgb(6, 112, 153);
+    padding-right: 20px;
+    display: flex;
+    justify-content: end;
+}
+.device img{
+    width: 150px;
+}
+.device_details img{
+    width: 60px;
+}
+@media (max-width:600px){
+    .size{
+        display:none;
+    }
+}
+@media (min-width:600px){
+    .app_start{
+        display: none;
+    }
+    .app{
+        display: none;
+    }
+    .device{
+        display: none;
+    }
+    .size{
+        display: inline-block;
+    }
+    .circle{
+        display: none;
+    }
+    .apppage1{
+        display: none;
+    }
+    .apppage{
+        display: none;
+    }
+}
+    
